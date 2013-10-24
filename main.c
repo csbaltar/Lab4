@@ -12,7 +12,7 @@ char Message2[]="Of all time.   ";
  * main.c
  */
 // a comment
-
+// b func comment
 int main(void) {
    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 	
