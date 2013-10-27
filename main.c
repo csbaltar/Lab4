@@ -85,7 +85,7 @@ int main(void) {
             	    	LCDclear();// toggle LEDs and wait for release
                 break;
 
-            case BIT1 & BIT2 & BIT3:
+            case BIT1 & BIT2 & BIT3:	//if none are pressed it will display:
             	  Line1();
             	  write(Message3, 8);
             	  Line2();
