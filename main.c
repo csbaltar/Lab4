@@ -10,8 +10,8 @@ char Message3[]="Message?";
 char Message4[]="Press123.";
 char Message5[]="I love it.     ";
 char MessageSize5=15;
-char Message6[]="Sorry.  ";
-char MessageSize6=8;
+char Message6[]="Especially Lab 4.  ";
+char MessageSize6=19;
 
 
 /*
