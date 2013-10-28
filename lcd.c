@@ -8,7 +8,6 @@
 #include <msp430.h>
 #include "lcd.h"
 
-char	a=29;
 char byteToSend;
 char LCDCON;
 
@@ -88,6 +87,8 @@ void set_SS_lo()
  {
 	 writeCommandByte(0x80);
  }
+
+
 //Capt Branchflower's code below
 #define RS_MASK 0x40
 
@@ -179,6 +180,3 @@ void SPI_send(char byteToSend)
     set_SS_hi();
 }
 //end Capt Branchflower's code
-
-
-
